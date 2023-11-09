@@ -1,0 +1,54 @@
+{
+    "security.allowedUNCHosts": [
+        "wsl$"
+    ],
+    "workbench.iconTheme": "vs-nomo-dark",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "git.openRepositoryInParentFolders": "always",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.mouseWheelZoom": true,
+    "css.lint.unknownAtRules": "ignore",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.fontFamily": "'Jetbrains Mono', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.rulers": [
+        80
+    ],
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "keyword",
+                    "storage.modifier",
+                    "storage.type.class.js",
+                    "storage.type.class.ts",
+                    "storage.type.class.tsx",
+                    "storage.type.js",
+                    "storage.type.ts",
+                    "storage.type.tsx",
+                    "storage.type.function.ts",
+                    "storage.type.function.tsx",
+                    "storage.type.ts",
+                    "storage.type.tsx",
+                    "entity.other.attribute-name.html"
+                ],
+                "settings": {
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "scope": [
+                    "keyword.control.conditional",
+                    "keyword.operator"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "editor.fontWeight": "100",
+    "workbench.colorTheme": "Yi Dark",
+}
